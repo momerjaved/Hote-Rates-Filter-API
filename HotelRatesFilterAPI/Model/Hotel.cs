@@ -1,4 +1,4 @@
-﻿namespace HotelRatesFilterAPI.Classes
+﻿namespace HotelRatesFilterAPI.Model
 {
 
     public class HotelRatesData
