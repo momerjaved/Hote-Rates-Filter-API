@@ -5,13 +5,13 @@ This project is built using Visual Stuido 2022 and .NET 6. Please clone the repo
 hotelId : 7294
 arrivalDate  "2016-03-15T00:00:00.000+01:00"
 
-Press Execute and scroll down , server call should return with Code 200 and JSON data in Response Body section with filtered HotelId and its corresponding rates. This is the filtered data as per task requirements. 
+Press Execute and scroll down , server call should return with Code 200 and JSON data in Response Body section with filtered HotelId and corresponding Hotel rates as required by the task. 
 
-The hotelrates.json file can be found under Data folder and you can try a different combination of hotelId and arrivalDate as per data in the file.  For e.g.  the combination 
+The hotelrates.json file can be found under Data folder and you can try a different combination of hotelId and arrivalDate.  For e.g.  the combination 
 
 hotelId : 7295
 arrivalDate  "2023-05-01T00:00:00.000+01:00"
 
-should fetch 2 hotel rates.
+should fetch 2 Hotel rates.
 
- Unit Tests project :  **HotelRatesUnitTest**. Open Test Explore and press 'Run All Tests in View' button . All tests should pass successfully.
+ Unit Tests project :  **HotelRatesUnitTest**. Open the Test Explorer and press 'Run All Tests in View' button. All tests should pass successfully.
